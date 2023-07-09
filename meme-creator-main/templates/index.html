@@ -74,13 +74,13 @@
     </div>
     <div class="meme-block" id="memeBlock">
       
-      <p class="text_top" style="<!-- Задание №3. Помещаем переменные в CSS -->">
+      <p class="text_top" style="color: {{selected_color}}; top: {{text_top_y}}">
         <p>{{text_top}}</p>
       </p>
 
       <img class="meme" src="{{ url_for('serve_images', path=selected_image) }}" alt="{{ selected_image }}">
 
-      <p class="text_bottom" style="<!-- Задание №3. Помещаем переменные в CSS -->">
+      <p class="text_bottom" style="color: {{selected_color}}; bottom: {{text_bottom_y}}">
         <p>{{text_bottom}}</p>
       </p>
     </div>
