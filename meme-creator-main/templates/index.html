@@ -81,7 +81,7 @@
       <img class="meme" src="{{ url_for('serve_images', path=selected_image) }}" alt="{{ selected_image }}">
 
       <p class="text_bottom" style="color: {{selected_color}}; bottom: {{text_bottom_y}}">
-        <p>{{text_bottom}}</p>
+        {{text_bottom}}
       </p>
     </div>
     {% endblock %}
